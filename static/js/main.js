@@ -65,7 +65,10 @@ $(document).ready(function () {
                     data: [{        
                         type: "column",
                         dataPoints: res
-                    }]
+                    }],
+		    axisY:{
+   			minimum: 0,
+ 		    },
                 });
                 chart.render();
                 console.log('Success!');
